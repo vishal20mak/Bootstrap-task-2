@@ -6,6 +6,21 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.button {
+  			background-color: black;
+  			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			margin-left: 300px
+			}
+	</style>
 </head>
 <body>
 	<div class="container">
@@ -15,12 +30,13 @@
 	</div>
 
 
-	<div class="row">
+	<div class="row" style="min-height: 2000px;">
 		<div class="col-sm-8" style="background-color: green" >
 			<h2 style="text-align: center;" style="">Add Employee Details</h2>
 			<div class="row">
-				<div class="col-sm-6" style="background-color: pink">
+				<div class="col-sm-6" style="background-color: pink;">
 					<form>
+						<div style="margin-bottom: 28px">
 						<div style="font-size: 20px;">name:</div><input type="txet" name="first-name" placeholder="Enter your name"><br><br>
 
 
@@ -38,6 +54,7 @@
 						<input type="checkbox" name="javascript">javascript<br>
 						<input type="checkbox" name="php">PHP<br>
 						<input type="checkbox" name="python">python<br>
+						</div>
 
 					</div>
 					<div class="col-sm-6" style="background-color: blue">
@@ -50,19 +67,21 @@
 
 
 						
-							<span class="text-center" style="position: fixed;top: 37%;background-color: white;margin-left: 15px">Contact Details</span>
-							<div style="border: 3PX solid white;padding: 10px;border-radius: 10px">
-							<span style="font-size: 20px">Email:</span><input type="Email " name="Email"  placeholder="Enter your Emailaddress" size="25px" style="border-radius: 3px;"><br><br>
+							<span class="text-center" style="position: absolute;top: 26%;background-color: white;margin-left: 15px">Contact Details</span>
+							<div style="border: 3PX solid white;padding: 10px;border-radius: 10px; ">
+							<div style="padding: 15px">
+							<span style="font-size: 18px">Email:&nbsp</span><input type="Email " name="Email"  placeholder="Enter your Emailaddress" size="25px" style="border-radius: 3px;"><br><br>
 							
-							<span style="font-size: 20px">phone:</span><input type="phone" name="phone" max="10" placeholder="Enter your phone no." size="25px" style="border-radius: 3px;"><br><br>
+							<span style="font-size: 18px">phone:</span><input type="phone" name="phone" max="10" placeholder="Enter your phone no." size="25px" style="border-radius: 3px;"><br><br>
 							
-							<span style="font-size: 20px">Skype:</span><input type="text" name="Skype" placeholder="Enter your Skype id" size="25px" style="border-radius: 3px;">
+							<span style="font-size: 18px">Skype:</span><input type="text" name="Skype" placeholder="Enter your Skype id" size="25px" style="border-radius: 3px;">
+							</div>
 							</div>
 
 					</form>
 
 				</div><br><br>
-				<input type="submit" value="Add Details"style="margin-left: 400px">
+				<input type="button" class="button" value="Add Details">
 
 			</div>
 
@@ -70,17 +89,18 @@
 
 
 
-		<div class="col-sm-4" style="background-color: yellow">
+		<div class="col-sm-4" style="background-color: yellow;">
 			<h2 style="text-align: center;">NOTICE BORD</h2>
 			<ul>
 				<li class="list" style="color: red;font-size: 20px">Point-1</li>
-				<ol type="I" class="listol">
+
+				<ol type="I" class="listol" style="border:1px solid black; margin-bottom:70px">
 					<li>sub-point-1</li>
 					<li>sub-point-2</li>
 					<li>sub-point-3</li>
 				</ol>
 				<li style="color: red;font-size: 20px">Point-2</li>
-				<ol type="a">
+				<ol type="a" style="border:1px solid black; margin-bottom:60px">
 					<li>sub-point-2.1</li>
 					<li>sub-point-2.2</li>
 					<li>sub-point-2.3</li>

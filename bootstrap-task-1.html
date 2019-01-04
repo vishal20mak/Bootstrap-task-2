@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-image: url(image/background1.jpg);background-size: cover;">
+  <div class="container">
+      <div class="row" style="background-color: orange">
+        <div class="col-sm-4"><img class="img-rounded" src="image/logo.jpeg" alt="image not found" style="width: 125px"></div>
+        <div class="col-sm-8"><div class="page-header"><h2>rao-infotech</h2></div></div>
+      </div>
+        
+        <div class="row" style="background-color: green">
+            
+            <div class="col-sm-8">
+                <h2 style="text-align: center;" style=""> <i class="fa fa-user" aria-hidden="true"></i> Add Employee Details</h2>
+                
+
+                <div class="col-sm-6" style="background-color: pink">
+                  <form>
+                    <div style="font-size: 20px"><i class="fa fa-id-badge" aria-hidden="true"></i>name:</div><input type="txet" name="first-name"><br><br>
+                  
+
+                    <span style="font-size: 20px">Experiance:</span>
+                    <select>
+                      <option>1 Year</option>
+                      <option>2 Year</option>
+                      <option>3 Year</option>
+                      <option>4 Year</option>
+                      <option>5 Year</option>
+                    </select><br><br>
+
+
+                    <span style="font-size: 20px">Technology:</span><br>
+                            <input type="checkbox" name="javascript">javascript<br>
+                            <input type="checkbox" name="php">PHP<br>
+                            <input type="checkbox" name="python">python<br>
+                  </form>
+                </div>
+                <div class="col-sm-6" style="background-color: blue">
+                  <form>
+                    <span style="font-size: 20px">Last Education:</span><br>
+                      <input type="radio" name="Education" value="B.E" checked="B.E">B.E
+                      <input type="radio" name="Education" value="M.E">M.E
+                      <input type="radio" name="Education" value="BCA">BCA
+                      <input type="radio" name="Education" value="Diploma">Diplomna<br><br>
+
+
+                      <fieldset>
+                          <legend style="font-size: 20px">Contact Details</legend>
+                          <span style="font-size: 20px"><i class="fa fa-envelope" aria-hidden="true"></i>Email:</span><input type="Email" name="Email"  placeholder="Enter your Emailaddress" size="25px" style="border-radius: 3px;"><br><br>
+                          <span style="font-size: 20px"><i class="fa fa-phone" aria-hidden="true"></i>phone:</span><input type="phone" name="phone" max="10" placeholder="Enter your phone no." size="25px" style="border-radius: 3px;"><br><br>
+                          <span style="font-size: 20px">Skype:</span><input type="text" name="Skype" placeholder="Enter your Skype id" size="25px" style="border-radius: 3px;">
+                      </fieldset>
+                  </form>
+                  
+                </div>
+                <br><input type="submit" value="Add Details"style="margin-left: 400px">
+
+            
+            </div>
+
+            <div class="col-sm-4" style="background-color: yellow">
+              <h2 style="font-size: 30px;"><span style="color: red">N</span><span style="color: yellow">O</span><span style="color: blue">T</span>ICE BOARD</h2>
+
+              <ul>
+                <li class="list" style="color: red;font-size: 20px">Point-1</li>
+                  <ol type="I" class="listol">
+                    <li>sub-point-1</li>
+                    <li>sub-point-2</li>
+                    <li>sub-point-3</li>
+                  </ol>
+               <li style="color: red;font-size: 20px">Point-2</li>
+                    <ol>
+                      <li>sub-point-2.1</li>
+                      <li>sub-point-2.2</li>
+                      <li>sub-point-2.3</li>
+                    </ol>
+               </ul>
+            </div>
+        </div>
+  </div>
+</body>
+</html>
